@@ -1,0 +1,69 @@
+body
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color:#333;
+        }
+        .container
+        {
+            display: flex;
+            color: whitesmoke;
+            position: relative;
+        }
+        p
+        {
+            font-size: 50px;
+        }
+        #stop,#start,#reset,#lap
+        {
+            border-radius: 50%;
+            height: 70px;
+            width: 70px;
+            color: green;
+            font-size: 20px;
+            border-radius: 40%;
+            box-shadow:5px 5px 10px green;
+        }
+        .content
+        {
+           height: 500px;
+           width: 500px;
+           border:5px solid green;
+           border-radius: 40%;
+        }
+        
+        #buttons
+        {
+          display: flex;
+          position: absolute;
+          margin-left: 100px;
+          margin-top: 200px;
+          gap: 15px;
+        }
+        h1
+        {
+          position: absolute;
+          margin-left:100px;
+        }
+        #setter
+        {
+          position: absolute;
+          display: flex;
+          margin-left:80px;
+        }
+        #lapCounter
+        {
+          margin-top: 20px; 
+            color: white;
+            text-align: left; 
+            max-height: 220px;
+            margin-left: 10px;
+        }
+        h2
+        {
+          font-size: 40px;
+          color: white;
+          position: absolute;
+        }
